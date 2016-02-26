@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170F4AAD1C7F73B300B71067 /* DeviceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170F4AAC1C7F73B300B71067 /* DeviceTableViewController.swift */; };
+		172DCE511C7F767D00CAECE7 /* AutomationApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DCE501C7F767D00CAECE7 /* AutomationApi.swift */; };
 		178DE6FC1C7F5D9C00C5D149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DE6FB1C7F5D9C00C5D149 /* AppDelegate.swift */; };
-		178DE6FE1C7F5D9C00C5D149 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DE6FD1C7F5D9C00C5D149 /* FirstViewController.swift */; };
 		178DE7001C7F5D9C00C5D149 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DE6FF1C7F5D9C00C5D149 /* SecondViewController.swift */; };
 		178DE7031C7F5D9C00C5D149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178DE7011C7F5D9C00C5D149 /* Main.storyboard */; };
 		178DE7051C7F5D9C00C5D149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178DE7041C7F5D9C00C5D149 /* Assets.xcassets */; };
 		178DE7081C7F5D9C00C5D149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178DE7061C7F5D9C00C5D149 /* LaunchScreen.storyboard */; };
 		178DE7131C7F5D9C00C5D149 /* CSH_AutomationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DE7121C7F5D9C00C5D149 /* CSH_AutomationTests.swift */; };
 		178DE71E1C7F5D9C00C5D149 /* CSH_AutomationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DE71D1C7F5D9C00C5D149 /* CSH_AutomationUITests.swift */; };
+		17BB19041C7F7FCF001B19D8 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB19031C7F7FCF001B19D8 /* CurrentUser.swift */; };
+		17BB19061C7F8115001B19D8 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB19051C7F8115001B19D8 /* AuthenticationManager.swift */; };
+		17BB19081C7FCFFA001B19D8 /* ApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB19071C7FCFFA001B19D8 /* ApiViewController.swift */; };
+		38D2D4716FDD8C4F99A6BB19 /* Pods_CSH_Automation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D110739C22CDFBB435C370F6 /* Pods_CSH_Automation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		170F4AAC1C7F73B300B71067 /* DeviceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTableViewController.swift; sourceTree = "<group>"; };
+		172DCE501C7F767D00CAECE7 /* AutomationApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutomationApi.swift; sourceTree = "<group>"; };
 		178DE6F81C7F5D9C00C5D149 /* CSH Automation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSH Automation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		178DE6FB1C7F5D9C00C5D149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		178DE6FD1C7F5D9C00C5D149 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		178DE6FF1C7F5D9C00C5D149 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		178DE7021C7F5D9C00C5D149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		178DE7041C7F5D9C00C5D149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		178DE7191C7F5D9C00C5D149 /* CSH AutomationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSH AutomationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		178DE71D1C7F5D9C00C5D149 /* CSH_AutomationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSH_AutomationUITests.swift; sourceTree = "<group>"; };
 		178DE71F1C7F5D9C00C5D149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BB19031C7F7FCF001B19D8 /* CurrentUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		17BB19051C7F8115001B19D8 /* AuthenticationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		17BB19071C7FCFFA001B19D8 /* ApiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiViewController.swift; sourceTree = "<group>"; };
+		32B8BD35A425D2A33DDF0721 /* Pods-CSH Automation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSH Automation.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSH Automation/Pods-CSH Automation.release.xcconfig"; sourceTree = "<group>"; };
+		6B140D74DA12AC825D623B72 /* Pods-CSH Automation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSH Automation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSH Automation/Pods-CSH Automation.debug.xcconfig"; sourceTree = "<group>"; };
+		D110739C22CDFBB435C370F6 /* Pods_CSH_Automation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSH_Automation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D2D4716FDD8C4F99A6BB19 /* Pods_CSH_Automation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		172DCE521C7F768400CAECE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				178DE6FF1C7F5D9C00C5D149 /* SecondViewController.swift */,
+				170F4AAC1C7F73B300B71067 /* DeviceTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		178DE6EF1C7F5D9C00C5D149 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				178DE7111C7F5D9C00C5D149 /* CSH AutomationTests */,
 				178DE71C1C7F5D9C00C5D149 /* CSH AutomationUITests */,
 				178DE6F91C7F5D9C00C5D149 /* Products */,
+				8E1775BD865E5D0DF50EBE01 /* Pods */,
+				1B2D8CFEF103F13A532A2E7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +123,16 @@
 		178DE6FA1C7F5D9C00C5D149 /* CSH Automation */ = {
 			isa = PBXGroup;
 			children = (
+				172DCE521C7F768400CAECE7 /* Controllers */,
+				172DCE501C7F767D00CAECE7 /* AutomationApi.swift */,
 				178DE6FB1C7F5D9C00C5D149 /* AppDelegate.swift */,
-				178DE6FD1C7F5D9C00C5D149 /* FirstViewController.swift */,
-				178DE6FF1C7F5D9C00C5D149 /* SecondViewController.swift */,
 				178DE7011C7F5D9C00C5D149 /* Main.storyboard */,
 				178DE7041C7F5D9C00C5D149 /* Assets.xcassets */,
 				178DE7061C7F5D9C00C5D149 /* LaunchScreen.storyboard */,
 				178DE7091C7F5D9C00C5D149 /* Info.plist */,
+				17BB19031C7F7FCF001B19D8 /* CurrentUser.swift */,
+				17BB19051C7F8115001B19D8 /* AuthenticationManager.swift */,
+				17BB19071C7FCFFA001B19D8 /* ApiViewController.swift */,
 			);
 			path = "CSH Automation";
 			sourceTree = "<group>";
@@ -128,6 +155,23 @@
 			path = "CSH AutomationUITests";
 			sourceTree = "<group>";
 		};
+		1B2D8CFEF103F13A532A2E7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D110739C22CDFBB435C370F6 /* Pods_CSH_Automation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E1775BD865E5D0DF50EBE01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B140D74DA12AC825D623B72 /* Pods-CSH Automation.debug.xcconfig */,
+				32B8BD35A425D2A33DDF0721 /* Pods-CSH Automation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 178DE7221C7F5D9C00C5D149 /* Build configuration list for PBXNativeTarget "CSH Automation" */;
 			buildPhases = (
+				120958DF4007AD50118B9D0C /* Check Pods Manifest.lock */,
 				178DE6F41C7F5D9C00C5D149 /* Sources */,
 				178DE6F51C7F5D9C00C5D149 /* Frameworks */,
 				178DE6F61C7F5D9C00C5D149 /* Resources */,
+				3C9ED636888E78E213673B8B /* Embed Pods Frameworks */,
+				E20CF03E9191B3ACDC7C3F2B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +304,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		120958DF4007AD50118B9D0C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C9ED636888E78E213673B8B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSH Automation/Pods-CSH Automation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20CF03E9191B3ACDC7C3F2B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSH Automation/Pods-CSH Automation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		178DE6F41C7F5D9C00C5D149 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17BB19041C7F7FCF001B19D8 /* CurrentUser.swift in Sources */,
 				178DE7001C7F5D9C00C5D149 /* SecondViewController.swift in Sources */,
+				172DCE511C7F767D00CAECE7 /* AutomationApi.swift in Sources */,
+				17BB19061C7F8115001B19D8 /* AuthenticationManager.swift in Sources */,
+				17BB19081C7FCFFA001B19D8 /* ApiViewController.swift in Sources */,
+				170F4AAD1C7F73B300B71067 /* DeviceTableViewController.swift in Sources */,
 				178DE6FC1C7F5D9C00C5D149 /* AppDelegate.swift in Sources */,
-				178DE6FE1C7F5D9C00C5D149 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,24 +503,26 @@
 		};
 		178DE7231C7F5D9C00C5D149 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B140D74DA12AC825D623B72 /* Pods-CSH Automation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "CSH Automation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stuartolivera.CSH-Automation";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rit.csh.automation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		178DE7241C7F5D9C00C5D149 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32B8BD35A425D2A33DDF0721 /* Pods-CSH Automation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "CSH Automation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stuartolivera.CSH-Automation";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rit.csh.automation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -493,6 +594,7 @@
 				178DE7241C7F5D9C00C5D149 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		178DE7251C7F5D9C00C5D149 /* Build configuration list for PBXNativeTarget "CSH AutomationTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +603,7 @@
 				178DE7271C7F5D9C00C5D149 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		178DE7281C7F5D9C00C5D149 /* Build configuration list for PBXNativeTarget "CSH AutomationUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +612,7 @@
 				178DE72A1C7F5D9C00C5D149 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

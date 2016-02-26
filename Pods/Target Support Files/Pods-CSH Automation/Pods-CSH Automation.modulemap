@@ -1,0 +1,6 @@
+framework module Pods_CSH_Automation {
+  umbrella header "Pods-CSH Automation-umbrella.h"
+
+  export *
+  module * { export * }
+}

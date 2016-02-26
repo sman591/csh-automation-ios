@@ -7,9 +7,21 @@
 //
 
 import UIKit
+import Alamofire
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var projectorPower: UISwitch!
+    @IBAction func projectorPowerChangeed(sender: UISwitch) {
+        if sender.on {
+            print("it's on!")
+        } else {
+            print("it's off.")
+        }
+        
+        AutomationApi.loungeProjectorTogglePower(sender.on)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
